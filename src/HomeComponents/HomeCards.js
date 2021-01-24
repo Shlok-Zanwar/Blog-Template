@@ -9,7 +9,7 @@ function HomeCards() {
     // }
 
     return cards.map(card =>
-        <Link to={card.url}>
+        <Link to={card.url} key={card.id}>
             <div key={card.id} className="cards-box">
                 <div className="cards-info">
                     <div className="cards-title">

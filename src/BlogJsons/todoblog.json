@@ -22,7 +22,7 @@
     {
         "type":"button",
         "text":"Check it out",
-        "click":"http://localhost:3000/todo"
+        "click":"https://shlok-zanwar.github.io/todo-app"
     },
     {
         "type":"image",

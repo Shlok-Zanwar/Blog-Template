@@ -11,15 +11,19 @@ function RoutePaths() {
 
             <Switch>
             
-            <Route path="/blogs/todo">
-                <BlogTemplate blogData={require("./BlogJsons/todoblog.json")} />
-            </Route>
-            <Route path="/todo">
-                {/* <Users /> */}
-            </Route>
-            <Route path="/">
-                <Home />
-            </Route>
+                <Route path="/blogs/toxicbot">
+                    <BlogTemplate blogData={require("./BlogJsons/ToxicbotBlog.json")} />
+                </Route>
+                <Route path="/blogs/todo">
+                    <BlogTemplate blogData={require("./BlogJsons/TodoBlog.json")} />
+                </Route>
+                <Route path="/todo-app">
+                    {/* <TodoApp /> */}
+                </Route>
+                <Route path="/">
+                    <Home />
+                </Route>
+
             </Switch>
         </Router>
     )
