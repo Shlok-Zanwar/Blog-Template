@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Switch, Route, Redirect } from "react-router-do
 import BlogTemplate from './BlogTemplates/BlogTemplate';
 import Home from './HomeComponents/Home';
 import MyNavbar from "./MyNavbar";
+import BlogApi from "./BlogTemplates";
 
 function RoutePaths() {
     // let location = useLocation();
@@ -17,9 +18,10 @@ function RoutePaths() {
             <MyNavbar />
 
             <Switch>
-                {/* <Route exact path="/">
-                    
-                </Route> */}
+                <Route path="/blogs/">
+                    <BlogApi />
+                </Route>
+
                 <Route path="/blogs/toxicbot">
                     <BlogTemplate blogData={require("./BlogJsons/ToxicbotBlog.json")} />
                 </Route>

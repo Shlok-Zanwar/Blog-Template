@@ -19,20 +19,45 @@
             "Done"
         ]
     },
+
+    {
+        "type":"subheading",
+        "text":"Features"
+    },
+    {
+        "type":"list",
+        "list":[
+            "The three columns help in managing your work better. Especially when you do a big project and have multiple functions to be done at a time the 'doing' tab helps you in keeping reference to all your work and you can also track all the things you have done in the ‘done’ tab.",
+            "The app uses local-storage for storing details so that all the todos are retained when page reopens / reloads.",
+            "You can also Drag and Drop your todo's to the other divisions rather than using the button.",
+            "You can drag an element on the delete button to delete it directly.",
+            "You can re-order the position of a To-Do by dragging it on some other To-Do (New position will be below the To-Do you dragged on).",
+            "At first the colour of To-Do's is randomly chosen, you can update the color while updating the todo to categorize your todos well.",
+            "You can simply go to the next color by clicking on the colour selector or right to choose from all the available colours." 
+        ]
+    },
+
     {
         "type":"button",
         "text":"Check it out",
         "click":"https://shlok-zanwar.github.io/todo-app"
     },
+
     {
         "type":"image",
         "src":"https://i.ibb.co/L53DPxv/Todo-Capture.png",
         "alt":"Image"
     },
+
+    {
+        "type":"subheading",
+        "text":"Technologies"
+    },
     {
         "type":"paragraph",
-        "text":"The three columns help in managing your work better. Specially when you do some projects and have multiple function to be done, you can track all the things you have done and also assign multiple things to 'doing' tab for faster working."
+        "text":"This app is designed using React-Js and hosted on Github-pages"
     },
+
     {
         "type":"subheading",
         "text":"To-Do"
